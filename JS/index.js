@@ -13,7 +13,7 @@ image.classList.add("image")
 
 document.body.appendChild(heading)
 document.body.appendChild(image)
-
+console.log("Arslan Akmal")
 
     });
 }
