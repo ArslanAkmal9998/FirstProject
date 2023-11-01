@@ -14,6 +14,7 @@ console.log("fvanscdsnkjcnskajcnajkvnkavnldvasdkl")
 document.body.appendChild(heading)
 document.body.appendChild(image)
 console.log("Arslan Akmal")
+console.log("Signup");
 
     });
 }
