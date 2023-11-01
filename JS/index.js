@@ -10,7 +10,7 @@ const image = document.createElement('img');
 heading.innerHTML=element.title;
 image.src=element.image;
 image.classList.add("image")
-
+console.log("fvanscdsnkjcnskajcnajkvnkavnldvasdkl")
 document.body.appendChild(heading)
 document.body.appendChild(image)
 console.log("Arslan Akmal")
