@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Register Form</h1>
+    <form>
+        <label>Username:</label>
+        <input type="text" name="username" value="" placeholder="Username" required/><br/>
+        <label>Email:</label>
+        <input type="email" name="email" value="" placeholder="arsl@gmail.com"/><br/>
+        <label>Age:</label>
+        <input type="number" name="age" value="" placeholder="25"/><br/>
+        <label>Password:</label>
+        <input type="password" name="password" value="" placeholder="Enter password"/><br/>
+        <label>DOB:</label>
+        <input type="date" name="dob" value=""/><br/>
+        <label>CNIC:</label>
+        <input type="number" name="cnic" value="" placeholder="Please Enter Your CNIC number "/><br/>
+        <label style="color:red">Note*</label>
+        <ul>
+            <li style="color:red">Please use your own CNIC number for registration.</li>
+            <li style="color:red">Please make sure your CNIC is Correct.</li>
+            <li style="color:red">CNIC,Phone Number and Email can not be changed after registration.</li>
+        </ul>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" />
+        <label>Male</label>
+        <input type="radio" name="gender" value="Female"/>
+        <label>Female</label>
+        <br/>
+        <label>Country:</label>
+        <select>
+            <option selected disabled hidden>Select your country</option>
+            <option name="country" value="Pakistan">Pakistan</option>
+            <option name="country" value="India">India</option>
+            <option name="country" value="Australia">Australia</option>
+            <option name="country" value="England">England</option>
+        </select><br/>
+        <label>Hobby:</label>
+        <input type="checkbox" name="hobby" value="Cricket"/>
+        <label>Cricket</label>
+        <input type="checkbox" name="hobby" value="Hockey"/>
+        <label>Hockey</label>
+         <input type="checkbox" name="hobby" value="Gardening"/>
+        <label>Gardening</label><br/>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+   
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    background-color: black;
+    color:red;
+    text-align: center;
+}
+
+@media screen and (max-width:430px) {
+    .title{
+        background-color: orange;
+        color:black;
+        text-align: start;
+        width: 50%;  
+        display:none;
+    }
+    
+}
+@media screen and (max-width:768px) and (min-width:430px) {
+    .title{
+        background-color: red;
+        color:white;
+        text-align: end;
+        width: 75%;  
+    }
+    
+}

@@ -1,0 +1,15 @@
+.title{
+    color:black;
+    background-color: yellow;
+    text-align: center;
+
+}
+.titleLose{
+    color:green;
+text-align: start;
+    background-color: black;
+}
+.image{
+    width:300px;
+    height:300px;
+}
